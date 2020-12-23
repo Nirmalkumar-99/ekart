@@ -2,11 +2,13 @@
   "name": "helloreact",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://nirmalkumar-99.github.io/ekart/",
+  "homepage": "https://nirmalkumar-99.github.io/ekart/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -18,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"yarn build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Nirmalkumar-99/ekart.git",
+  "author": "Nirmalkumar-99 <nirmalkumar.anbalagan@nutechnologyinc.com>",
+  "license": "MIT"
 }
