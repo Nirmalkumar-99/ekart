@@ -1,8 +1,21 @@
 import { useState } from "react";
 
+class Place
+{
+  constructor(plc)
+  {
+    this.plc=plc;
+  }
+  getPlace()
+  {
+    return ("I like "+this.plc);
+  }
+}
 
 function App() {
-  
+  const pp=new Place("kashmir");
+ 
+
   var detail=
   {
     name:"welcome"
@@ -26,6 +39,7 @@ function App() {
       <div className="content">
         {displayContent}
       </div>
+     {pp.getPlace()}
     </div>
   );
     }
