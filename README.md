@@ -73,4 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 hello react completed
 react component.
 ES6 I classes.
-ES6 II completed
+ES6 II completed.
+react component.
+nested component completed.

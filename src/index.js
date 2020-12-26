@@ -15,12 +15,21 @@ class Header extends React.Component
         );
     }
 }
-const con=(
-    <div>
-      <Header />
-    </div>
-);
-ReactDOM.render(con,document.getElementById('ro'));
+class First extends React.Component
+{
+    render()
+    {
+        return(
+            <div>
+              <Header />
+               who changed in this document..
+            </div>
+
+        );
+    }
+}
+
+ReactDOM.render(<First />,document.getElementById('ro'));
 
 ReactDOM.render(
   <React.StrictMode>
