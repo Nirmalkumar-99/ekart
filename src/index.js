@@ -27,7 +27,6 @@ class Header extends React.Component
         return(
             <div>
               <h3>hii all</h3>
-             
                something changed in this document..
                <h3>{this.props.val}</h3>
             </div>
@@ -58,10 +57,38 @@ class Alrt extends React.Component
     );
   }
 }
+class Increa extends React.Component
+{
+  constructor(props)
+  {
+    super(props);
+    this.inc=this.inc.bind(this);
+    this.state={
+      count: 0
+    };
+  }
+  inc()
+  {
+    this.setState((prevstate)=>{
+      return{
+        count:prevstate.count +1
+      };
+    });
+  }
+  render()
+  {
+    return(
+      <div>
+        <h2>count:{this.state.count}</h2>
+        <button onClick={this.inc} >Add</button>
+      </div>
+    );
+  }
+}
 
 
 ReactDOM.render(<First />,document.getElementById('ro'));
-
+ReactDOM.render(<Increa />,document.getElementById('roo'));
 ReactDOM.render(
   <React.StrictMode>
     <App />
