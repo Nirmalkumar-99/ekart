@@ -76,3 +76,4 @@ ES6 I classes.
 ES6 II completed.
 react component.
 nested component completed.
+props completed.

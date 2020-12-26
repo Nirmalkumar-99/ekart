@@ -3,31 +3,38 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+class First extends React.Component
+{
+
+    render()
+    {
+      const prop="i changed this...";
+        return(
+            <div>
+               who changed this document..
+              <Header val={prop} />
+              
+            </div>
+
+        );
+    }
+}
 class Header extends React.Component
 {
     render()
     {
         return(
             <div>
+              <h3>hii all</h3>
+             
                something changed in this document..
+               <h3>{this.props.val}</h3>
             </div>
 
         );
     }
 }
-class First extends React.Component
-{
-    render()
-    {
-        return(
-            <div>
-              <Header />
-               who changed in this document..
-            </div>
 
-        );
-    }
-}
 
 ReactDOM.render(<First />,document.getElementById('ro'));
 
