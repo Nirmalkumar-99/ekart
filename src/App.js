@@ -11,9 +11,25 @@ class Place
     return ("I like "+this.plc);
   }
 }
+class Category extends Place
+{
+  constructor(plc,ctgy)
+  {
+    super(plc);
+    this.ctgy=ctgy;
+  }
+  display()
+  {
+    let dis=super.getPlace();
+    dis+=this.ctgy;
+    return dis;
+  }
+
+}
 
 function App() {
   const pp=new Place("kashmir");
+  const ctg=new Category("Kashmir ","a tourist palce");
  
 
   var detail=
@@ -39,7 +55,9 @@ function App() {
       <div className="content">
         {displayContent}
       </div>
-     {pp.getPlace()}
+    
+     {ctg.display()}
+     
     </div>
   );
     }
