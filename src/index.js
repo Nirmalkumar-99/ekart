@@ -64,14 +64,14 @@ class Increa extends React.Component
     super(props);
     this.inc=this.inc.bind(this);
     this.state={
-      count: 0
+      count: 100
     };
   }
   inc()
   {
     this.setState((prevstate)=>{
       return{
-        count:prevstate.count +1
+        count:0
       };
     });
   }
@@ -80,7 +80,7 @@ class Increa extends React.Component
     return(
       <div>
         <h2>count:{this.state.count}</h2>
-        <button onClick={this.inc} >Add</button>
+        <button onClick={this.inc} >Reset</button>
       </div>
     );
   }
