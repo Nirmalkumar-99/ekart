@@ -77,3 +77,4 @@ ES6 II completed.
 react component.
 nested component completed.
 props completed.
+event and method

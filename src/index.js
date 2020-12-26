@@ -13,6 +13,7 @@ class First extends React.Component
             <div>
                who changed this document..
               <Header val={prop} />
+              <Alrt />
               
             </div>
 
@@ -33,6 +34,29 @@ class Header extends React.Component
 
         );
     }
+}
+class Alrt extends React.Component
+{
+  msg(e)
+  {
+    e.preventDefault();
+    const click=e.target.elements.click.value;
+    if(click)
+    {
+      alert(click);
+    }
+  }
+  render()
+  {
+    return(
+      <div>
+        <form onSubmit={this.msg}>
+          <input type="text" name="click"></input>
+          <button>alert msg</button>
+        </form>
+      </div>
+    );
+  }
 }
 
 
