@@ -28,7 +28,7 @@ class Category extends Place
 }
 
 function App() {
-  const pp=new Place("kashmir");
+
   const ctg=new Category("Kashmir ","a tourist palce");
  
 
