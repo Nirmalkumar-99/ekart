@@ -78,3 +78,6 @@ react component.
 nested component completed.
 props completed.
 event and method
+counter state.
+setstate.
+Indecision state.
