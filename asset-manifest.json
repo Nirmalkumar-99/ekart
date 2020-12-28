@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ekart/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/ekart/static/js/main.5905cb73.chunk.js",
-    "main.js.map": "/ekart/static/js/main.5905cb73.chunk.js.map",
+    "main.js": "/ekart/static/js/main.8933dcf0.chunk.js",
+    "main.js.map": "/ekart/static/js/main.8933dcf0.chunk.js.map",
     "runtime-main.js": "/ekart/static/js/runtime-main.d5a91892.js",
     "runtime-main.js.map": "/ekart/static/js/runtime-main.d5a91892.js.map",
     "static/js/2.b6e3012a.chunk.js": "/ekart/static/js/2.b6e3012a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d5a91892.js",
     "static/js/2.b6e3012a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.5905cb73.chunk.js"
+    "static/js/main.8933dcf0.chunk.js"
   ]
 }
