@@ -81,3 +81,7 @@ event and method
 counter state.
 setstate.
 Indecision state.
+stateless function.
+default props.
+react dev tools.
+life cycle methods.

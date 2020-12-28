@@ -8,17 +8,20 @@ class First extends React.Component
 
     render()
     {
-      const prop="i changed this...";
+     
         return(
             <div>
                who changed this document..
-              <Header val={prop} />
+              <Header val={this.props.val} />
               <Alrt />
               
             </div>
 
         );
     }
+}
+First.defaultProps={
+  val:"this is default props"
 }
 class Header extends React.Component
 {
